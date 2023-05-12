@@ -5,7 +5,17 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'aXtool',
-  description: 'aXtool Landing Page'
+  description: 'aXtool Landing Page',
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true
+    }
+  }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
