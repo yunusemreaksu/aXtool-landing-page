@@ -12,7 +12,7 @@ export default function Features({ cta, topRow, bottomRow }: FeaturesProps) {
           <h5 className="text-center text-4xl font-extrabold leading-[45px] text-gray-900">
             {cta.title}
           </h5>
-          <p className="p-2.5 text-center text-xl font-normal leading-[30px] text-gray-500">
+          <p className="p-2.5 text-center text-xl font-normal leading-[30px] text-gray-500 md:text-start">
             {cta.description}
           </p>
         </div>
@@ -29,7 +29,7 @@ export default function Features({ cta, topRow, bottomRow }: FeaturesProps) {
                 <h6 className="text-center text-xl font-bold leading-[25px] text-gray-900">
                   {top.title}
                 </h6>
-                <p className="p-2.5 text-center text-base font-normal text-gray-500">
+                <p className="p-2.5 text-center text-base font-normal text-gray-500 md:p-0 md:text-start">
                   {top.description}
                 </p>
               </div>
@@ -47,7 +47,7 @@ export default function Features({ cta, topRow, bottomRow }: FeaturesProps) {
                 <h6 className="text-center text-xl font-bold leading-[25px] text-gray-900">
                   {bottom.title}
                 </h6>
-                <p className="p-2.5 text-center text-base font-normal text-gray-500">
+                <p className="p-2.5 text-center text-base font-normal text-gray-500 md:p-0 md:text-start">
                   {bottom.description}
                 </p>
               </div>
