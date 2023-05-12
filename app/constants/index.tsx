@@ -4,11 +4,11 @@ import QuestionMarkCircle from '../icons/question-mark-circle';
 import Refresh from '../icons/refresh';
 
 export const BRAND_IMAGES = [
-  '/brands/image-1.png',
-  '/brands/image-2.png',
-  '/brands/image-3.png',
-  '/brands/image-4.png',
-  '/brands/image-5.png'
+  '/images/brands/image-1.png',
+  '/images/brands/image-2.png',
+  '/images/brands/image-3.png',
+  '/images/brands/image-4.png',
+  '/images/brands/image-5.png'
 ];
 
 export const CTA_CARD = {
